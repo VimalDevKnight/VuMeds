@@ -1,0 +1,77 @@
+/* src/components/HowItWorks.css */
+
+.how-it-works-section {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+}
+
+.how-it-works-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.how-it-works-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.step {
+  flex: 1;
+  max-width: 300px;
+  padding: 1rem;
+  background: #ffffff20;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.step-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffeb3b;
+}
+
+.step-description {
+  font-size: 1.25rem;
+}
+
+.cta-button {
+  margin-top: 2rem;
+}
+
+.get-started-btn {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+  .how-it-works-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    max-width: 100%;
+  }
+}
