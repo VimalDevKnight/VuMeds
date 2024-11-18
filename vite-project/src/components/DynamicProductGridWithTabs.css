@@ -1,0 +1,53 @@
+.dynamic-product-grid {
+    padding: 40px 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.active {
+    background: #44bba4;
+    color: white;
+  }
+  
+  .tab:hover {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    color: #44bba4;
+    font-size: 1.1rem;
+  }

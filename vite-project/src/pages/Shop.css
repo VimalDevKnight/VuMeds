@@ -1,0 +1,52 @@
+.shop-page {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .sticky-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-button {
+    background: linear-gradient(90deg, #44bba4, #17a2b8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #17a2b8, #44bba4);
+  }
+
+
+  @media (max-width: 768px) {
+    .shop-page {
+      padding: 10px;
+    }
+  
+    .category-card {
+      width: 100%;
+    }
+  
+    .sticky-bar {
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  }
