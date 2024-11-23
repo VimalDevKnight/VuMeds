@@ -35,6 +35,9 @@ const NavigationBar = () => {
                 <Nav.Link as={Link} to="/shop" style={{ color: 'white' }} active={location.pathname === '/shop'}>
                   Shop
                 </Nav.Link>
+                <Nav.Link as={Link} to="/listing" style={{ color: 'white' }} active={location.pathname === '/listing'}>
+                  Products
+                </Nav.Link>
                 <Nav.Link as={Link} to="/upload-prescription" style={{ color: 'white' }} active={location.pathname === '/upload-prescription'}>
                   Upload Prescription
                 </Nav.Link>
@@ -69,6 +72,9 @@ const NavigationBar = () => {
               </Nav.Link>
               <Nav.Link as={Link} to="/shop" style={{ color: 'white' }} active={location.pathname === '/shop'}>
                 Shop
+              </Nav.Link>
+              <Nav.Link as={Link} to="/listing" style={{ color: 'white' }} active={location.pathname === '/listing'}>
+                Products
               </Nav.Link>
               <Nav.Link as={Link} to="/upload-prescription" style={{ color: 'white' }} active={location.pathname === '/upload-prescription'}>
                 Upload Prescription
