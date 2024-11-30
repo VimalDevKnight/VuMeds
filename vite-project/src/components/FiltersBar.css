@@ -6,7 +6,12 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-  }
+    position: fixed; /* Fixes the position */
+    margin-top: 70px; /* Adjust to match navbar height */
+    left: 0;
+    width: 100%; /* Ensure it spans the full width */
+}
+
   
   .filters-section, .sorting-section {
     display: flex;

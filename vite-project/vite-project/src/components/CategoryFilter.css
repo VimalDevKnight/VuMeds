@@ -1,0 +1,12 @@
+.category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.category-option input {
+    margin-right: 5px;
+}
+.category-option label {
+    font-size: 14px;
+    color: #333;
+}

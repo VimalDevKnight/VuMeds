@@ -12,7 +12,7 @@ import "./Shop.css";
 const Shop = () => {
   return (
     <div className="shop-page">
-      <FiltersBar />
+      {/* <FiltersBar /> */}
       <PopularCategories />
       <FeaturedOffersBanner />
       {/* <ProductCategories /> */}

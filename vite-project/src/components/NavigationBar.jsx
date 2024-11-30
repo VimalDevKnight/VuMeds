@@ -35,16 +35,16 @@ const NavigationBar = () => {
                 <Nav.Link as={Link} to="/shop" style={{ color: 'white' }} active={location.pathname === '/shop'}>
                   Shop
                 </Nav.Link>
-                <Nav.Link as={Link} to="/listing" style={{ color: 'white' }} active={location.pathname === '/listing'}>
+                <Nav.Link as={Link} to="/products" style={{ color: 'white' }} active={location.pathname === '/products'}>
                   Products
                 </Nav.Link>
                 <Nav.Link as={Link} to="/upload-prescription" style={{ color: 'white' }} active={location.pathname === '/upload-prescription'}>
                   Upload Prescription
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contact" style={{ color: 'white' }} active={location.pathname === '/contact'}>
+                <Nav.Link as={Link} to="/contact-us" style={{ color: 'white' }} active={location.pathname === '/contact-us'}>
                   Contact Us
                 </Nav.Link>
-                <Nav.Link as={Link} to="/about" style={{ color: 'white' }} active={location.pathname === '/about'}>
+                <Nav.Link as={Link} to="/about-us" style={{ color: 'white' }} active={location.pathname === '/about-us'}>
                   About Us
                 </Nav.Link>
               </Nav>
@@ -73,16 +73,16 @@ const NavigationBar = () => {
               <Nav.Link as={Link} to="/shop" style={{ color: 'white' }} active={location.pathname === '/shop'}>
                 Shop
               </Nav.Link>
-              <Nav.Link as={Link} to="/listing" style={{ color: 'white' }} active={location.pathname === '/listing'}>
+              <Nav.Link as={Link} to="/products" style={{ color: 'white' }} active={location.pathname === '/products'}>
                 Products
               </Nav.Link>
               <Nav.Link as={Link} to="/upload-prescription" style={{ color: 'white' }} active={location.pathname === '/upload-prescription'}>
                 Upload Prescription
               </Nav.Link>
-              <Nav.Link as={Link} to="/contact" style={{ color: 'white' }} active={location.pathname === '/contact'}>
+              <Nav.Link as={Link} to="/contact-us" style={{ color: 'white' }} active={location.pathname === '/contact-us'}>
                 Contact Us
               </Nav.Link>
-              <Nav.Link as={Link} to="/about" style={{ color: 'white' }} active={location.pathname === '/about'}>
+              <Nav.Link as={Link} to="/about-us" style={{ color: 'white' }} active={location.pathname === '/about-us'}>
                 About Us
               </Nav.Link>
             </Nav>
