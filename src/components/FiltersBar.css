@@ -1,0 +1,39 @@
+.filters-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    position: fixed; /* Fixes the position */
+    margin-top: 70px; /* Adjust to match navbar height */
+    left: 0;
+    width: 100%; /* Ensure it spans the full width */
+}
+
+  
+  .filters-section, .sorting-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-icon, .sort-icon {
+    color: #44bba4;
+    font-size: 1.5rem;
+  }
+  
+  .filter-dropdown, .sort-dropdown {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+  }
+  
+  .filter-dropdown:focus, .sort-dropdown:focus {
+    outline: none;
+    border-color: #44bba4;
+  }

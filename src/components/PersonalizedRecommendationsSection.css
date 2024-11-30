@@ -1,0 +1,40 @@
+.personalized-recommendations {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .recommendations-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .recommendations-subheading {
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .product-carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    color: #44bba4;
+    font-size: 1.1rem;
+  }

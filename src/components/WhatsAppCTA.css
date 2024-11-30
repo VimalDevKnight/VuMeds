@@ -1,0 +1,50 @@
+/* src/components/WhatsAppCTA.css */
+
+.whatsapp-cta {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .whatsapp-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .whatsapp-icon {
+    font-size: 50px;
+    color: #25D366;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whatsapp-link:hover .whatsapp-icon {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chat-label {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #25D366;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+  }
+  
+  .whatsapp-link:hover .chat-label {
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .whatsapp-icon {
+      font-size: 60px;
+    }
+    .chat-label {
+      font-size: 16px;
+    }
+  }
+  
